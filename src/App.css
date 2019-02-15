@@ -1,0 +1,305 @@
+/*NAVBAR*/
+
+.navbar {
+  background-color: #211e1f;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+.brand {
+  color: white;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition-duration: 0.5s;
+}
+
+.brand:hover{
+  color: #268ca0;
+}
+
+.nav-link {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition-duration: 0.5s;
+}
+
+.nav-link:hover{
+  color: #268ca0;
+}
+
+
+.toggle-menu {
+  width: 35px;
+  height: 4px;
+  background-color: #268ca0;
+  margin: 6px 0;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*HOMESCREEN*/
+
+body {
+  background: linear-gradient(to left top, #268ca0, red) fixed;
+  font-family: ubuntu;
+}
+
+.info {
+  color: white;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid white;
+  width: 40%;
+}
+
+.info-container {
+  padding-top: 450px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Profile*/
+
+.profile-container {
+  margin-top: 450px;
+  background-color: white;
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 2px solid #211e1f;
+}
+
+.profile-title {
+  padding-top: 100px;
+  color: #268ca0;
+  padding-bottom: 30px;
+}
+
+.general-info-container {
+  padding-bottom: 50px;
+}
+
+.profile-info {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h2 {
+  color: #268ca0;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*EDUCATION*/
+
+.education-title {
+  padding-top: 100px;
+  color: white; 
+}
+
+.education-container {
+  background-color: #211e1f;
+  text-align: center;
+}
+
+.hr-education {
+  border-top: 2px solid #268ca0;
+  width: 30%;
+  padding-bottom: 100px;
+}
+
+.edu-h3 {
+  color: #268ca0;
+}
+
+h5 {
+  color: #268ca0;
+  text-align: center;
+}
+
+.education-date, .cert-date {
+  color: white;
+  text-align: center;
+}
+
+.p-education, .p-cert {
+  color: white;
+}
+
+.edu-col, .cert-col {
+  padding-bottom: 100px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+/*CERTIFICATES*/
+ .cert-container {
+   background-color: white;
+ }
+
+ .cert-title {
+   text-align: center;
+   color: #268ca0;
+   padding-top: 100px;
+ }
+
+ .hr-cert {
+  border-top: 2px solid #211e1f;
+  width: 30%;
+  padding-bottom: 100px;
+ }
+
+.cert-h3 {
+  color: #268ca0;
+  text-align: center;
+}
+
+.p-cert {
+  text-align: center;
+  color: #211e1f;
+}
+
+.cert-date {
+  color: #211e1f;
+}
+
+.cert-h5 {
+  color: #268ca0;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*PROJECTS*/
+
+.project-container {
+  background: linear-gradient(to bottom, #26a077, #211e1f);
+  padding-bottom: 80px;
+}
+
+.project-h1 {
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.project-h3 {
+  color: #268ca0
+}
+
+.project-p {
+  color: white;
+}
+
+.project-url {
+  color: #26a077;
+}
+
+.project-url:visited {
+  color: #26a077;
+}
+
+.project-p-url {
+  color: white;
+  margin-right: 20px;
+}
+
+.project-p-url, .project-url {
+  display: inline;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*TECHNOLOGIES*/
+
+.tech-container {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.tech-h1 {
+  color: #26a077;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.tech-name {
+  float: none;
+}
+
+.star {
+  float: right;
+  color: #268ca0;
+}
+
+.tech-li {
+  padding-bottom: 20px;
+}
+
+.tech-li:hover {
+  background-color: #f2eeea;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*CONTACT*/
+
+
+.contact-container {
+  background-color: #211e1f;
+  text-align: center;
+  padding-bottom: 50px;
+} 
+
+.contact-title {
+  padding-top: 100px;
+  color: white; 
+}
+
+.hr-contact {
+  border-top: 2px solid #26a077;
+  width: 30%;
+  padding-bottom: 100px;
+}
+
+.mobile-icon, .mail-icon {
+  color: #268ca0;
+  margin-right: 20px;
+}
+
+.mobile-h5, .mail-h5 {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.linkedin-logo {
+  width: 50px;
+}
+
+.linkedin-url {
+  color: white;
+}
+
+.linkedin-url:hover {
+  color: #26a077;
+}
+
+.linkedin-url:visited {
+  color: #26a077;
+}
+
